@@ -1,0 +1,50 @@
+/* General */
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  height: 100%;
+  color: white;
+}
+
+.container {
+  background-color: blue;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clockContainer {
+  background-color: white;
+  display: flex;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+hr {
+  width: 40px;
+  margin-bottom: 40px;
+}
+
+.hours,
+.minutes,
+.seconds {
+  background-color: rgb(87, 103, 127);
+  width: 60px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+.hours {
+  border-radius: 20px 0 0 20px;
+}
+
+.seconds {
+  border-radius: 0 20px 20px 0;
+}
